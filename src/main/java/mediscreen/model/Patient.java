@@ -19,6 +19,16 @@ public class Patient {
 	public Patient() {
 	}
 
+	public Patient(int id, String family, String given, Date dob, String sex, String address, String phone) {
+		this.id = id;
+		this.family = family;
+		this.given = given;
+		this.dob = dob;
+		this.sex = sex;
+		this.address = address;
+		this.phone = phone;
+	}
+
 	public int getId() {
 		return id;
 	}

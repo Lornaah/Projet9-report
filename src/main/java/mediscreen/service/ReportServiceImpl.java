@@ -30,7 +30,7 @@ public class ReportServiceImpl implements ReportService {
 
 		if (age >= 30) {
 			if (occurrences >= 2 && occurrences < 6)
-				return "Bordeline";
+				return "Borderline";
 			if (occurrences >= 6 && occurrences < 8)
 				return "In Danger";
 			if (occurrences >= 8)
